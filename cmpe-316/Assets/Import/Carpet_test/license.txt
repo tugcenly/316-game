@@ -1,0 +1,11 @@
+Model Information:
+* title:	Carpet test
+* source:	https://sketchfab.com/3d-models/carpet-test-b5e8bf745f7a4297b9d356610e5c5122
+* author:	ToastedbreadXD (https://sketchfab.com/ToastedbreadXD)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Carpet test" (https://sketchfab.com/3d-models/carpet-test-b5e8bf745f7a4297b9d356610e5c5122) by ToastedbreadXD (https://sketchfab.com/ToastedbreadXD) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

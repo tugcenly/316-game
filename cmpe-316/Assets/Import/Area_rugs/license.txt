@@ -1,0 +1,11 @@
+Model Information:
+* title:	Area rugs
+* source:	https://sketchfab.com/3d-models/area-rugs-9835f3f7a94e4e839f404fe0374736d1
+* author:	1CLICK DESIGN (https://sketchfab.com/jplucero0824)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Area rugs" (https://sketchfab.com/3d-models/area-rugs-9835f3f7a94e4e839f404fe0374736d1) by 1CLICK DESIGN (https://sketchfab.com/jplucero0824) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
