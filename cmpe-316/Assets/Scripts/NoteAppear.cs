@@ -9,6 +9,7 @@ public class NoteAppear : MonoBehaviour
     [SerializeField]
     private Image noteImage;
     public Text noteText ;
+   
     
     void Start()
     {
@@ -21,7 +22,7 @@ public class NoteAppear : MonoBehaviour
         if (other.CompareTag("Player")){
             noteImage.enabled = true;
             noteText.enabled = true;
-
+           
         }
     }
 
@@ -30,6 +31,9 @@ public class NoteAppear : MonoBehaviour
         if (other.CompareTag("Player")){
             noteImage.enabled = false;
             noteText.enabled = false;
+            //!!
+            Counter.timer++;
+            Destroy(gameObject);
         }
     }
 }

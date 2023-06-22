@@ -255,11 +255,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             Rigidbody body = hit.collider.attachedRigidbody;
             //dont move the rigidbody if the character is on top of it
+            /*
             if (m_CollisionFlags == CollisionFlags.Below)
             {
                 return;
             }
-
+            */
             if (body == null || body.isKinematic)
             {
                 return;

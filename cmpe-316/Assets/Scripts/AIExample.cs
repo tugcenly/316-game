@@ -8,7 +8,7 @@ public class AIExample : MonoBehaviour {
 
     public enum WanderType { Random, Waypoint};
 
-
+    public float damage;
     public FirstPersonController fpsc;
     public WanderType wanderType = WanderType.Random;
     public float wanderSpeed = 4f;
@@ -56,6 +56,7 @@ public class AIExample : MonoBehaviour {
 
         } else
         {
+ 
             Wander();
             animator.SetBool("Aware", false);
             agent.speed = wanderSpeed;
@@ -147,5 +148,13 @@ public class AIExample : MonoBehaviour {
         NavMeshHit navHit;
         NavMesh.SamplePosition(randomPoint, out navHit, wanderRadius, -1);
         return new Vector3(navHit.position.x, transform.position.y, navHit.position.z);
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerStats>().TakeDamage(damage);
+        }
     }
 }
