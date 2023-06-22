@@ -9,7 +9,7 @@ public class ExitCube : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //SceneManager.LoadScene("Survived");
+            SceneManager.LoadScene("Survived");
         }
     }
 }
